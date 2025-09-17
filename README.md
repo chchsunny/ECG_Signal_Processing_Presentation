@@ -51,3 +51,22 @@ Please download them manually from [PhysioNet](https://physionet.org).
 點擊下方按鈕，即可在 Google Colab 中直接執行
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/ECG-Signal-Processing-ML/blob/main/notebooks/ECG_Feature_Extraction.ipynb)
+
+---
+
+## Results
+
+- Random Forest performed best with ~97.9% accuracy.  
+- Most important features:  
+  - P-wave amplitude (0.1995)  
+  - QRS amplitude (0.1826)  
+  - Mean RR Interval (0.1517)  
+  - QRS duration (0.1309)  
+
+Confusion matrices and feature importance plots are available in the `results/` folder.
+
+---
+
+## License
+This project is licensed under the MIT License – see the LICENSE
+ file for details.
