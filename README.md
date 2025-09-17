@@ -11,38 +11,35 @@
 - [MIT-BIH Supraventricular Arrhythmia Database (SVDB)](https://physionet.org/content/svdb/1.0.0/)
 - [MIT-BIH Normal Sinus Rhythm Database (NSRDB)](https://physionet.org/content/nsrdb/1.0.0/)
 
-⚠️ **Note**: Due to licensing, the raw datasets are **not included** in this repository.  
-Please download them manually from [PhysioNet](https://physionet.org).
-
 ---
 
 ## ⚙️ Methods
 
-1. **Signal Preprocessing**
-   - Filtering  
-   - R-peak detection  
+1. **訊號前處理**
+   - Filtering
+   - R-peak detection
 
-2. **Feature Extraction**
-   - **PQRST features**:  
+2. **特徵擷取**
+   - **PQRST 特徵**:  
      - P-wave amplitude  
      - QRS amplitude  
      - T-wave amplitude  
      - QRS duration  
-   - **HRV features**:  
+   - **HRV 特徵s**:  
      - Mean RR Interval  
      - SDNN  
      - RMSSD  
      - NN50  
      - pNN50  
 
-3. **Sample Preparation**
-   - Resample (128Hz → 360Hz)  
-   - Segment ECG into **30s windows**  
-   - Label samples as **normal (0)** or **abnormal (1)**  
-   - Train/Test split (80%/20%)  
-   - Balance dataset  
+3. **樣本準備**
+   - 重新取樣 (128Hz → 360Hz)  
+   - 將 ECG 分割為 30 秒片段 
+   - Label samples 標註為 normal (0) or abnormal (1) 
+   - Train/Test 分割 (80%/20%)  
+   - 平衡樣本
 
-4. **Model Training**
+4. **模型訓練**
    - SVM  
    - Random Forest (optimized with GridSearchCV)  
    - KNN  
@@ -61,8 +58,6 @@ Please download them manually from [PhysioNet](https://physionet.org).
 <img width="683" height="280" alt="image" src="https://github.com/user-attachments/assets/bce96c09-beb1-4578-8a9c-350714f7f0fe" />
 
 <img width="678" height="404" alt="image" src="https://github.com/user-attachments/assets/0f61fe76-c9b8-4862-8c7c-db2f5c6163b7" />
-
- Confusion matrices and feature importance plots are available in the `results/` folder.
 
 ---
 
