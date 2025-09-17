@@ -55,15 +55,11 @@ Please download them manually from [PhysioNet](https://physionet.org).
 ---
 
 ## Results
+<img width="683" height="280" alt="image" src="https://github.com/user-attachments/assets/bce96c09-beb1-4578-8a9c-350714f7f0fe" />
 
-- Random Forest performed best with ~97.9% accuracy.  
-- Most important features:  
-  - P-wave amplitude (0.1995)  
-  - QRS amplitude (0.1826)  
-  - Mean RR Interval (0.1517)  
-  - QRS duration (0.1309)  
+<img width="678" height="404" alt="image" src="https://github.com/user-attachments/assets/0f61fe76-c9b8-4862-8c7c-db2f5c6163b7" />
 
-Confusion matrices and feature importance plots are available in the `results/` folder.
+ Confusion matrices and feature importance plots are available in the `results/` folder.
 
 ---
 
