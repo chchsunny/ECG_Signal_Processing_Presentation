@@ -1,8 +1,11 @@
 # ECG_Signal_Processing_Presentation
-This project applies machine learning to ECG signal processing using the MIT-BIH databases. We implemented preprocessing, feature extraction, and classification using SVM, Random Forest, and KNN.
+本專案利用MIT-BIH資料庫，將機器學習應用於心電圖訊號處理。我們使用SVM、Random Forest和KNN，比較三種方法的預測能力。
+
+---
+
 ## 📊 Dataset
 
-The project uses the following **PhysioNet MIT-BIH Databases**:
+本專案使用以下 **MIT-BIH 資料庫**：
 
 - [MIT-BIH Arrhythmia Database](https://physionet.org/content/mitdb/1.0.0/)
 - [MIT-BIH Supraventricular Arrhythmia Database (SVDB)](https://physionet.org/content/svdb/1.0.0/)
