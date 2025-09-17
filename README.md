@@ -1,5 +1,5 @@
 # ECG_Signal_Processing_Presentation
-Machine learning applied to ECG signal processing using MIT-BIH dataset
+This project applies machine learning to ECG signal processing using the MIT-BIH databases. We implemented preprocessing, feature extraction, and classification using SVM, Random Forest, and KNN.
 ## 📊 Dataset
 
 The project uses the following **PhysioNet MIT-BIH Databases**:
