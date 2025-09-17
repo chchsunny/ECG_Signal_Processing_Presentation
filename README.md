@@ -62,5 +62,4 @@
 ---
 
 ## License
-This project is licensed under the MIT License – see the LICENSE
- file for details.
+本專案使用 MIT License 授權，歡迎自由使用與參考
