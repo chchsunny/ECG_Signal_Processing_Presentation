@@ -52,6 +52,7 @@
 
 ## Results
 <img width="612" height="503" alt="image" src="https://github.com/user-attachments/assets/e89e8154-08d8-4186-9dc9-442d1152e730" />
+
 - 選用最穩定的 Random Forest 做為最終模型
 
 
