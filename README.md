@@ -25,7 +25,7 @@
      - QRS amplitude  
      - T-wave amplitude  
      - QRS duration  
-   - **HRV 特徵s**:  
+   - **HRV 特徵**:  
      - Mean RR Interval  
      - SDNN  
      - RMSSD  
