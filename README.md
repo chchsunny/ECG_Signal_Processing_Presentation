@@ -1,5 +1,5 @@
 # Machine learning applied to ECG signal analysis
-本專案利用MIT-BIH資料庫，將機器學習應用於心電圖訊號處理。我們使用SVM、Random Forest和KNN，比較三種方法的預測能力。
+本專案利用MIT-BIH資料庫，將機器學習應用於心電圖訊號處理，使用SVM、Random Forest和KNN，比較三種方法的預測能力。
 
 ---
 
