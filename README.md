@@ -62,7 +62,7 @@
 <img width="678" height="404" alt="image" src="https://github.com/user-attachments/assets/0f61fe76-c9b8-4862-8c7c-db2f5c6163b7" />
 
 - 結果顯示 ECG 波形的 P-Amplitude 與 QRS-Amplitude 對模型判斷最有影響，顯示波形形態特徵在分類中的重要性
-- 
+  
 ---
 
 ## License
