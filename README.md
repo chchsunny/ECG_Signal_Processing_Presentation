@@ -41,7 +41,7 @@
 
 4. **模型訓練**
    - SVM  
-   - Random Forest (optimized with GridSearchCV)  
+   - Random Forest 
    - KNN  
 
 ---
