@@ -53,23 +53,16 @@
 ## Results
 <img width="612" height="503" alt="image" src="https://github.com/user-attachments/assets/e89e8154-08d8-4186-9dc9-442d1152e730" />
 
-- 選用最穩定的 Random Forest 做為最終模型
-
-
+- 三種模型中，Random Forest 在正常與異常分類上表現最佳，且整體準確率最高，因此選為最終模型
 
 <img width="683" height="280" alt="image" src="https://github.com/user-attachments/assets/bce96c09-beb1-4578-8a9c-350714f7f0fe" />
 
-- 使用GridSearchCV調整 Random Forest 參數達到最好
+- 使用 GridSearchCV 調整 Random Forest 參數達到最佳效果
 
 <img width="678" height="404" alt="image" src="https://github.com/user-attachments/assets/0f61fe76-c9b8-4862-8c7c-db2f5c6163b7" />
 
-- 影響力最大的特徵分別是
-1. P-Amplitude
-2. QRS-Amplitude
-3. Mean RR Interval
-4. QRS-Duration
-5. T-Amplitude
-
+- 結果顯示 ECG 波形的 P-Amplitude 與 QRS-Amplitude 對模型判斷最有影響，顯示波形形態特徵在分類中的重要性
+- 
 ---
 
 ## License
